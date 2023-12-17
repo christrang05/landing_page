@@ -3,6 +3,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family:'Times New Roman', Times, serif;
 }
 
 ul {
@@ -14,7 +15,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: #e5e7eb;
+    color: #cbcdd2;
 }
 
 .top-content {
@@ -23,7 +24,7 @@ a {
 }
 
 .links-container {
-    height: 72px;
+    height: 33%;
     padding: 16px;
     display: flex;
     justify-content: space-around;
@@ -31,13 +32,39 @@ a {
 
 .right-links {
     display: flex;
-    justify-content: space-around;
     gap: 32px;
 }
 
 .top-info {
+    height: 67%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    gap: 16px;
 }
 
+.top-left {
+    padding: 16px;
+    width: 550px;
+}
+
+
+.top-content-header {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+
+.top-content-text {
+    font-size: 24px;
+    color: #cbcdd2;
+}
+
+button.sign-up {
+    cursor: pointer;
+    padding: 12px 48px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+}
