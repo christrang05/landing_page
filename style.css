@@ -68,3 +68,60 @@ button.sign-up {
     border: 1px solid royalblue;
     color: white;
 }
+
+.middle-content {
+    height: 400px;
+}
+
+.bottom-content {
+    height: 500px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    position: relative;
+    height: 250px;
+    width: 700px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color:  #1f2937;    
+}
+
+.quote-reference {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 24px;
+    font-weight: 900;
+    color: black;
+}
+
+.call-to-action {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-to-action-container {
+    height: 150px;
+    width: 1200px;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #1f2937;
+    height: 150px;
+}
